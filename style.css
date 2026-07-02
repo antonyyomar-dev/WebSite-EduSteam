@@ -3081,6 +3081,11 @@ body {
 }
 
 .btn-export {
+  background: #7174af;
+}
+
+.btn-export:hover {
+  background: #7174af;
   background: #2563eb;
 }
 
