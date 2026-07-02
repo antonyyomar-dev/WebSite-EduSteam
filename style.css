@@ -132,7 +132,7 @@ body {
       font-family: 'El Messiri', sans-serif;
       font-size: clamp(7rem, 8vw, 9rem);
       font-weight: 900;
-      color: #1B1E47;
+      color: #6469b2;
       line-height: 1.0;
       display: block;
     }
@@ -196,6 +196,33 @@ body {
       border-bottom: 0.5px solid #e2e2e2;
       padding-bottom: 15px;
       margin-bottom: 15px;
+    }
+
+    .btn-export {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #9176AB;
+      color: #fff;
+      border: none;
+      border-radius: 12px;
+      padding: 12px 18px;
+      font-family: 'Inter', sans-serif;
+      font-size: .92rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .2s ease, transform .2s ease, box-shadow .2s ease;
+    }
+
+    .btn-export:hover {
+      background: #79608d;
+      transform: translateY(-1px);
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    .btn-export svg {
+      width: 16px;
+      height: 16px;
     }
 
     .stat-stars {
@@ -3046,11 +3073,19 @@ body {
 .breadcrumb-row {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 10px 48px;
   border-bottom: 2px solid rgba(0,0,0,0.12);
   width: 100%;
   box-sizing: border-box;
+}
+
+.btn-export {
+  background: #7174af;
+}
+
+.btn-export:hover {
+  background: #7174af;
 }
 
 
